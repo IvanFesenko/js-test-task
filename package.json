@@ -1,0 +1,33 @@
+{
+  "name": "js-test-task",
+  "version": "1.0.0",
+  "description": "js test task",
+  "main": "index.js",
+  "homepage": "https://IvanFesenko.github.io/js-test-task",
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ],
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-test-task/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanFesenko/js-test-task.git"
+  },
+  "author": "Ivan Fesenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanFesenko/js-test-task/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "basiclightbox": "5.0.4"
+  }
+}

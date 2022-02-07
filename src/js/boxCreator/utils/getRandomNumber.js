@@ -1,0 +1,1 @@
+export const getRandomNumber = () => Math.floor(0 + Math.random() * 256);

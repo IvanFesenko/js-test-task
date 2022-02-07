@@ -1,0 +1,1 @@
+export const numberToHex = num => ("0" + Number(num).toString(16)).slice(-2);
